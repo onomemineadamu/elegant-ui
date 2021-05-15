@@ -1,0 +1,12 @@
+{
+  "name": "elegant-ui",
+  "version": "1.0.0",
+  "description": "Responsive and Accessible react ui",
+  "main": "index.js",
+  "author": "onome mine adamu",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
