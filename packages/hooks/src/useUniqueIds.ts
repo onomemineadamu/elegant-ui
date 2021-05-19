@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import uniqid from 'uniqid';
 
-const useUniqueIds = (numberOfUniqueIds: number) => {
+const useUniqueIds = (numberOfUniqueIds: number): string[] => {
   const uniqueIds = useRef(
     [...new Array(numberOfUniqueIds)].map(() => uniqid())
   );

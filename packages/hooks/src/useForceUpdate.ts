@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 
-const useForceUpdate = () => {
+const useForceUpdate = (): (() => void) => {
   const [, setState] = useState(Object.create(null));
   const set = useCallback(() => {
     setState(Object.create(null));

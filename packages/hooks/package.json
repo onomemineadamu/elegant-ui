@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -b .",
+    "lint": "eslint src --ext js,ts",
     "clean": "rimraf dist *.tsbuildinfo"
   },
   "devDependencies": {
