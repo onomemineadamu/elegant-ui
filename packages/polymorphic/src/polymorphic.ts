@@ -1,4 +1,7 @@
 /**
+ * Special thanks to the radix-ui and
+ */
+/**
  * Utility
  */
 type Merge<P1 = {}, P2 = {}> = Omit<P1, keyof P2> & P2;
